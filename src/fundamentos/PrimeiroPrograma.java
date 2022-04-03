@@ -1,8 +1,5 @@
 package fundamentos;
 
-
-import java.util.Scanner;
-
 public class PrimeiroPrograma {
 
    public static void main(String [] args ){
