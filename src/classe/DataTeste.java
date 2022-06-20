@@ -14,7 +14,11 @@ public class DataTeste {
         d2.mes = 3;
         d2.ano = 1987;
 
-        System.out.printf("%d/%d/%d\n",d1.dia,d1.mes,d1.ano);
-        System.out.printf("%d/%d/%d",d2.dia,d2.mes,d2.ano);
+        String dataFormatada1 = d1.obterDataFormatada();//posso fazer passando una vaiavel
+        System.out.println(dataFormatada1);
+        System.out.println(d2.obterDataFormatada());
+
+        d1.imprimirDataFormatada();//aqui ele já chama o println dentro da propria função
+        d2.imprimirDataFormatada();
        }
 }
