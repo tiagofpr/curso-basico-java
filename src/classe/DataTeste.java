@@ -14,7 +14,7 @@ public class DataTeste {
         d2.mes = 3;
         d2.ano = 1987;
 
-        String dataFormatada1 = d1.obterDataFormatada();//posso fazer passando una vaiavel
+        String dataFormatada1 = d1.obterDataFormatada();//posso fazer passando una vaiável
         System.out.println(dataFormatada1);
         System.out.println(d2.obterDataFormatada());
 
