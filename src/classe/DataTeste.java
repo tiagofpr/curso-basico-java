@@ -4,15 +4,11 @@ public class DataTeste {
 
     public static void main(String[] args) {
 
-        Data d1 = new Data();
-        d1.dia = 1;
-        d1.mes = 1;
-        d1.ano = 2022;
 
-        Data d2 = new Data();
-        d2.dia = 15;
-        d2.mes = 3;
-        d2.ano = 1987;
+        Data d1 = new Data();//pega as informações por padrão
+
+        Data d2 = new Data(15, 3, 1987);//grava nas variaveis passadas na classe Data
+
 
         String dataFormatada1 = d1.obterDataFormatada();//posso fazer passando una vaiável
         System.out.println(dataFormatada1);
