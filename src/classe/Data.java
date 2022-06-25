@@ -22,7 +22,7 @@ public class Data {
         //aqui geralmente é usado para resolver conflito de nomes
     }
     String obterDataFormatada(){//essa é a forma mais usada, retornando o valor
-        return String.format("%d/%d/%d", this.dia, mes, ano);//pode usar o thi diretamente no metodo
+        return String.format("%d/%d/%d", this.dia, mes, ano);//pode usar o this diretamente no metodo
     }
     void imprimirDataFormatada(){
         System.out.println(obterDataFormatada());//posso fazer usando um metodo chamando outro
