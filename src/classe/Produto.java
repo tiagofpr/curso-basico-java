@@ -28,6 +28,5 @@ public class Produto {
 /*
 Nome da loga "25%deDesconto"
 todos os produtos estão com o desconto de 25%
-
-
  */
+//valida
